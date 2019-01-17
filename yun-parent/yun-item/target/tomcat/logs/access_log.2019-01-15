@@ -1,0 +1,6 @@
+127.0.0.1 - - [15/Jan/2019:17:42:39 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-1 413
+127.0.0.1 - - [15/Jan/2019:17:42:45 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-3 43
+127.0.0.1 - - [15/Jan/2019:17:42:58 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-5 43
+127.0.0.1 - - [15/Jan/2019:17:43:38 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-7 109
+127.0.0.1 - - [15/Jan/2019:17:43:51 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-9 15
+127.0.0.1 - - [15/Jan/2019:17:44:17 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-10 156
