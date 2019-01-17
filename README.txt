@@ -1,1 +1,1 @@
-云中鹤电商系统
+This is a B2C based distributed e-commerce system
