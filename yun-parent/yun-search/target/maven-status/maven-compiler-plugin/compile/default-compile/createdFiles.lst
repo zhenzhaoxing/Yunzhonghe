@@ -3,4 +3,3 @@ com\star\search\pojo\Gui.class
 com\star\search\Controller\SearchTbitemController.class
 com\star\search\activemq\MyMessageListener.class
 com\star\search\service\Impl\SearchTbItemServiceimpl.class
-com\star\search\pojo\TbItemChild.class

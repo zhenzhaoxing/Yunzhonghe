@@ -26,14 +26,18 @@ public class JedisDaoImpl implements JedisDao {
 
 	@Override
 	public String get(String key) {
-		// TODO Auto-generated method stub
 		return jedisClients.get(key);
 	}
 
 	@Override
 	public String set(String key, String value) {
-		// TODO Auto-generated method stub
 		return jedisClients.set(key, value);
+	}
+
+	@Override
+	public Long expire(String key, int seconds) {
+     return jedisClients.expire(key, seconds);
+
 	}
 
 }

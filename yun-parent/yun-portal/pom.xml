@@ -8,6 +8,8 @@
   <artifactId>yun-portal</artifactId>
   <packaging>war</packaging>
  <dependencies>
+ 
+  
 		<!-- 分页插件 -->
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>

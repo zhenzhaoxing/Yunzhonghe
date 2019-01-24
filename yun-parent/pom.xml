@@ -28,12 +28,25 @@
 		<myredis-version>0.0.1-SNAPSHOT</myredis-version>
 		<activemq.version>5.11.2</activemq.version>
 		
-		
+		 <ailijson-version>1.2.32</ailijson-version>
 	</properties>
 	
 	
 <dependencyManagement>
 		<dependencies>
+		
+		
+		
+		
+		
+		<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>${ailijson-version}</version>
+     </dependency>
+		
+		
+		
 		<!-- spring整合 jms -->
 		<dependency>
 				<groupId>org.springframework</groupId>
@@ -52,7 +65,7 @@
 		<artifactId>activemq-client</artifactId>
 		<version>${activemq.version}</version>
 		</dependency>
-		
+	
 		<!-- 依赖的 yun-redis-->
 		
 		<dependency>
@@ -249,5 +262,9 @@
 		<module>yun-item</module>
 		<module>yun-redis</module>
 		<module>yun-search</module>
+		<module>yun-passport</module>
+		<module>yun-cart</module>
+		<module>yun-order</module>
+		<module>yun-pay</module>
 	</modules>
 </project>

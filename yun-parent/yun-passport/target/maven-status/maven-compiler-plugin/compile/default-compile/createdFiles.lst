@@ -1,0 +1,7 @@
+com\star\passport\Controller\TbUserController.class
+com\star\passport\service\impl\TbRegisterServiceImpl.class
+com\star\passport\service\TbUserService.class
+com\star\passport\service\impl\TbUserServiceImpl.class
+com\star\passport\service\impl\TbRegisterServiceImpl$1.class
+com\star\passport\service\TbRegisterService.class
+com\star\passport\Controller\TbRegiestController.class

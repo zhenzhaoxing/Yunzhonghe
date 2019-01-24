@@ -54,6 +54,14 @@
 	<dubbo:service interface="com.star.dubbo.service.TbContentDubboService" ref="tbContentDubboServiceImpl"></dubbo:service>
 	<bean id="tbContentDubboServiceImpl" class="com.Star.dubbo.Impl.TbContentDubboServiceImpl"></bean>
 	
+	<!-- 用户信息-->
+	<dubbo:service interface="com.star.dubbo.service.TbUserDubboService" ref="tbUserDubboServiceImpl"></dubbo:service>
+	<bean id="tbUserDubboServiceImpl" class="com.Star.dubbo.Impl.TbUserDubboServiceImpl"></bean>
+	
+	
+	<!-- 订单表 商品和订单表 用户收货信息表 -->
+	<dubbo:service interface="com.star.dubbo.service.TbOrderDubboService" ref="tbOrderDubboServiceImpl"></dubbo:service>
+	<bean id="tbOrderDubboServiceImpl" class="com.Star.dubbo.Impl.TbOrderDubboServiceImpl"></bean>
 	<import resource="../../applicationContext.xml"/>
 </beans>
 

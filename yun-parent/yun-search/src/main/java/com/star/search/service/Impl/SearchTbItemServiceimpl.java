@@ -23,10 +23,10 @@ import com.Star.pojo.TbItem;
 import com.Star.pojo.TbItemCat;
 import com.Star.pojo.TbItemDesc;
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.star.commons.pojo.TbItemChild;
 import com.star.dubbo.service.TbItemCatDubboService;
 import com.star.dubbo.service.TbItemDescDubboService;
 import com.star.dubbo.service.TbItemDubboService;
-import com.star.search.pojo.TbItemChild;
 import com.star.search.service.SearchTbItemService;
 @Service
 public class SearchTbItemServiceimpl implements SearchTbItemService {

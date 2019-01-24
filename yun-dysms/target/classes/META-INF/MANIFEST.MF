@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: xiang
+Build-Jdk: 10.0.1
+Implementation-Title: yun-dysms
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.star
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/yun-dysms
+Created-By: Maven Integration for Eclipse
+
